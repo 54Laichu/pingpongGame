@@ -1,9 +1,37 @@
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 #gameBoard {
   background-color: black;
+}
+
+.menu {
+  margin: 10px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  color: black;
+  background-color: yellowgreen;
+  border: none;
+  padding: 10px;
+}
+
+#stop {
+  color: black;
+  background-color: red;
+  border: none;
+  padding: 10px;
 }
