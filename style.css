@@ -35,3 +35,12 @@ body {
   border: none;
   padding: 10px;
 }
+
+.difficulty {
+  color: black;
+  background-color: rgb(50, 205, 174);
+  margin: 10px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
